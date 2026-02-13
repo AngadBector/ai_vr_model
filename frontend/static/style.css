@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    padding: 30px;
+}
+
+textarea {
+    width: 60%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    background: #00ffcc;
+    cursor: pointer;
+}
+
+.video-container {
+    margin-top: 30px;
+}
+
+video {
+    width: 80%;
+    border-radius: 10px;
+}

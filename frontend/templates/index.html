@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI VR Video Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🌍 AI VR Video Generator</h1>
+
+        <textarea 
+            id="prompt" 
+            placeholder="Enter your immersive VR scene..."></textarea>
+
+        <button onclick="generateVideo()">
+            Generate VR Video
+        </button>
+
+        <div class="video-container">
+            <video id="outputVideo" controls autoplay></video>
+        </div>
+
+        <p id="status"></p>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
